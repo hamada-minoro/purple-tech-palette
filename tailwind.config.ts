@@ -71,12 +71,12 @@ export default {
 						dark: '#4A2082',   // Dark Purple
 					},
 					blue: {
-						DEFAULT: '#3A5199', // Darker, cooler blue (updated)
-						light: '#5B71B9',   // Light Blue (updated)
-						dark: '#263366',    // Dark Blue (updated)
+						DEFAULT: '#001270', // Updated to dense saturated blue
+						light: '#0025A0',   // Light Blue (updated)
+						dark: '#000A47',    // Dark Blue (updated)
 					},
 					tech: {
-						black: '#121212',      // Tech Black (Softer than pure black)
+						black: '#191919',      // Updated Tech Black
 						dark: '#1A1F2C',       // Dark Tech Background
 						gray: '#2D3748',       // Tech Gray
 					},
@@ -127,8 +127,8 @@ export default {
 				'pulse-purple': 'pulse-purple 2s cubic-bezier(0.4, 0, 0.6, 1) infinite'
 			},
 			backgroundImage: {
-				'tech-gradient': 'linear-gradient(135deg, #121212 0%, #1A1F2C 100%)',
-				'purple-blue-gradient': 'linear-gradient(90deg, #6C38C0 0%, #3A5199 100%)',
+				'tech-gradient': 'linear-gradient(135deg, #191919 0%, #1A1F2C 100%)',
+				'purple-blue-gradient': 'linear-gradient(90deg, #6C38C0 0%, #001270 100%)',
 				'purple-gradient': 'linear-gradient(90deg, #4A2082 0%, #6C38C0 50%, #9B87F5 100%)'
 			}
 		}
