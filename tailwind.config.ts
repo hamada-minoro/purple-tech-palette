@@ -71,9 +71,9 @@ export default {
 						dark: '#4A2082',   // Dark Purple
 					},
 					blue: {
-						DEFAULT: '#1EAEDB', // Tech Blue
-						light: '#6BD4F5',   // Light Blue
-						dark: '#0F5C75',    // Dark Blue
+						DEFAULT: '#3A5199', // Darker, cooler blue (updated)
+						light: '#5B71B9',   // Light Blue (updated)
+						dark: '#263366',    // Dark Blue (updated)
 					},
 					tech: {
 						black: '#121212',      // Tech Black (Softer than pure black)
@@ -128,7 +128,7 @@ export default {
 			},
 			backgroundImage: {
 				'tech-gradient': 'linear-gradient(135deg, #121212 0%, #1A1F2C 100%)',
-				'purple-blue-gradient': 'linear-gradient(90deg, #6C38C0 0%, #1EAEDB 100%)',
+				'purple-blue-gradient': 'linear-gradient(90deg, #6C38C0 0%, #3A5199 100%)',
 				'purple-gradient': 'linear-gradient(90deg, #4A2082 0%, #6C38C0 50%, #9B87F5 100%)'
 			}
 		}
