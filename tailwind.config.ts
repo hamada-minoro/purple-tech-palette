@@ -66,17 +66,17 @@ export default {
 				// Hamada Tech Palette
 				hamada: {
 					purple: {
-						DEFAULT: '#6C38C0', // Primary Purple similar to logo
+						DEFAULT: '#5712b5', // Updated Primary Purple to #5712b5
 						light: '#9B87F5',  // Light Purple
 						dark: '#4A2082',   // Dark Purple
 					},
 					blue: {
-						DEFAULT: '#001270', // Updated to dense saturated blue
-						light: '#0025A0',   // Light Blue (updated)
-						dark: '#000A47',    // Dark Blue (updated)
+						DEFAULT: '#001270', // Dense saturated blue
+						light: '#0025A0',   // Light Blue
+						dark: '#000A47',    // Dark Blue
 					},
 					tech: {
-						black: '#191919',      // Updated Tech Black
+						black: '#191919',      // Tech Black
 						dark: '#1A1F2C',       // Dark Tech Background
 						gray: '#2D3748',       // Tech Gray
 					},

@@ -14,7 +14,7 @@
     --popover: 258 60% 6%;
     --popover-foreground: 0 0% 100%;
 
-    --primary: 267 70% 49%;
+    --primary: 273 83% 40%; /* Updated to match #5712b5 */
     --primary-foreground: 0 0% 100%;
 
     --secondary: 230 100% 22%;
@@ -31,18 +31,18 @@
 
     --border: 258 20% 18%;
     --input: 258 20% 18%;
-    --ring: 267 70% 49%;
+    --ring: 273 83% 40%; /* Updated to match #5712b5 */
 
     --radius: 0.5rem;
 
     --sidebar-background: 0 0% 7%;
     --sidebar-foreground: 0 0% 95%;
-    --sidebar-primary: 267 70% 49%;
+    --sidebar-primary: 273 83% 40%; /* Updated to match #5712b5 */
     --sidebar-primary-foreground: 0 0% 100%;
     --sidebar-accent: 258 10% 12%;
     --sidebar-accent-foreground: 0 0% 95%;
     --sidebar-border: 258 10% 15%;
-    --sidebar-ring: 267 70% 49%;
+    --sidebar-ring: 273 83% 40%; /* Updated to match #5712b5 */
   }
 }
 
@@ -81,11 +81,11 @@
 
 @layer utilities {
   .text-glow {
-    text-shadow: 0 0 5px rgba(108, 56, 192, 0.5);
+    text-shadow: 0 0 5px rgba(87, 18, 181, 0.5); /* Updated to match #5712b5 */
   }
   
   .border-glow {
-    box-shadow: 0 0 5px rgba(108, 56, 192, 0.5);
+    box-shadow: 0 0 5px rgba(87, 18, 181, 0.5); /* Updated to match #5712b5 */
   }
   
   .purple-gradient-text {
