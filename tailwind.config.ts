@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,30 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Hamada Tech Palette
+				hamada: {
+					purple: {
+						DEFAULT: '#6C38C0', // Primary Purple similar to logo
+						light: '#9B87F5',  // Light Purple
+						dark: '#4A2082',   // Dark Purple
+					},
+					blue: {
+						DEFAULT: '#1EAEDB', // Tech Blue
+						light: '#6BD4F5',   // Light Blue
+						dark: '#0F5C75',    // Dark Blue
+					},
+					tech: {
+						black: '#121212',      // Tech Black (Softer than pure black)
+						dark: '#1A1F2C',       // Dark Tech Background
+						gray: '#2D3748',       // Tech Gray
+					},
+					white: '#FFFFFF',          // Pure White (for contrast)
+					gray: {
+						light: '#F7FAFC',      // Light Gray
+						DEFAULT: '#A0AEC0',    // Medium Gray
+						dark: '#4A5568',       // Dark Gray
+					}
 				}
 			},
 			borderRadius: {
@@ -84,11 +109,27 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'pulse-purple': {
+					'0%, 100%': { 
+						opacity: '1',
+						boxShadow: '0 0 0 0 rgba(108, 56, 192, 0.7)'
+					},
+					'50%': { 
+						opacity: '0.8',
+						boxShadow: '0 0 0 10px rgba(108, 56, 192, 0)'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'pulse-purple': 'pulse-purple 2s cubic-bezier(0.4, 0, 0.6, 1) infinite'
+			},
+			backgroundImage: {
+				'tech-gradient': 'linear-gradient(135deg, #121212 0%, #1A1F2C 100%)',
+				'purple-blue-gradient': 'linear-gradient(90deg, #6C38C0 0%, #1EAEDB 100%)',
+				'purple-gradient': 'linear-gradient(90deg, #4A2082 0%, #6C38C0 50%, #9B87F5 100%)'
 			}
 		}
 	},
